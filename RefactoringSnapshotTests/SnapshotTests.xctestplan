@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "926A944B-4D09-4346-9C5A-3AF2B232BAF4",
+      "name" : "Configuration 1",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "FB_REFERENCE_IMAGE_DIR",
+            "value" : "$(SOURCE_ROOT)\/RefactoringSnapshotTests\/SnapshotImages"
+          }
+        ],
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:Refactoring.xcodeproj",
+          "identifier" : "221ED6E22CE0F09E007D99A9",
+          "name" : "RefactoringSnapshotTests"
+        }
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+
+    ],
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Refactoring.xcodeproj",
+        "identifier" : "221ED6E22CE0F09E007D99A9",
+        "name" : "RefactoringSnapshotTests"
+      }
+    }
+  ],
+  "version" : 1
+}

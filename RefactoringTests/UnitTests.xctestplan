@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "7889195A-55BA-4B64-A015-97ACDA25415E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Refactoring.xcodeproj",
+        "identifier" : "22C4C04D2CDBD3530084FFA3",
+        "name" : "RefactoringTests"
+      }
+    }
+  ],
+  "version" : 1
+}
